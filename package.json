@@ -1,0 +1,20 @@
+{
+  "name": "vybe-music-backend",
+  "version": "1.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Frontend-free music metadata, multi-provider lyrics, and local recommendation API for VYBE",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev --ip 0.0.0.0"
+  },
+  "dependencies": {
+    "@hono/vercel": "^0.4.2",
+    "hono": "^4.7.2"
+  },
+  "devDependencies": {
+    "wrangler": "^4.10.0"
+  },
+  "engines": { "node": ">=20" }
+}
